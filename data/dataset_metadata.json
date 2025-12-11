@@ -1,0 +1,90 @@
+{
+  "total_scenes": 2000,
+  "train_count": 1190,
+  "val_count": 210,
+  "test_count": 600,
+  "unique_place_ids": 192,
+  "unique_heading_ids": 12,
+  "split_strategy": "held_out_color_geometry_combinations",
+  "geometries": [
+    "square",
+    "rectangular",
+    "circular"
+  ],
+  "wall_colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "floor_textures": [
+    "wooden",
+    "tiled",
+    "carpeted"
+  ],
+  "objects": [
+    "lamp",
+    "table",
+    "chair",
+    "painting"
+  ],
+  "cardinal_directions": [
+    "north",
+    "south",
+    "east",
+    "west"
+  ],
+  "num_templates": 4,
+  "train_color_geometry_combos": [
+    [
+      "green",
+      "rectangular"
+    ],
+    [
+      "blue",
+      "circular"
+    ],
+    [
+      "red",
+      "circular"
+    ],
+    [
+      "green",
+      "circular"
+    ],
+    [
+      "yellow",
+      "square"
+    ],
+    [
+      "green",
+      "square"
+    ],
+    [
+      "yellow",
+      "circular"
+    ],
+    [
+      "blue",
+      "square"
+    ]
+  ],
+  "test_color_geometry_combos": [
+    [
+      "blue",
+      "rectangular"
+    ],
+    [
+      "red",
+      "square"
+    ],
+    [
+      "red",
+      "rectangular"
+    ],
+    [
+      "yellow",
+      "rectangular"
+    ]
+  ]
+}
